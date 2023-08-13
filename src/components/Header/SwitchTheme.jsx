@@ -20,7 +20,7 @@ export default function SwitchTheme() {
   };
 
   return (
-    <div className="flex absolute right-0 top-0 bottom-0 text-3xl cursor-pointer">
+    <div className="flex absolute right-0 top-0 bottom-0 text-lg md:text-3xl cursor-pointer">
       <Button type={"button"} onClick={switchTheme}>
         <i className={`bx bx-${theme === "light" ? "sun" : "moon"}`}></i>
       </Button>

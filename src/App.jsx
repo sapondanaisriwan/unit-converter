@@ -43,7 +43,7 @@ function App() {
   };
 
   return (
-    <main className="bg-white dark:bg-slate-800 w-full max-w-5xl shadow-lg rounded-xl px-8 pt-6 pb-8 m-12 overflow-hidden transition-colors">
+    <main className="bg-white dark:bg-slate-800 w-full max-w-5xl shadow-lg rounded-xl px-8 pt-6 pb-8 m-4 md:m-12 overflow-hidden transition-colors">
       <Header />
       <UserInput unitData={unitData} onCalcUnit={calcUnit} />
       <Preview previewData={unitData} />
